@@ -13,10 +13,13 @@ img {
   display: table;
 }
 /* Utilities */
-p {
+.gray {
   color: gray;
 }
-strong {
+.white {
+  color: #fff;
+}
+.black {
   color: black;
 }
 .container {
@@ -47,12 +50,6 @@ li:first-child {
 li:last-child {
   margin-right: 0;
 }
-span {
-  position: absolute;
-  color: #fff;
-  text-align: left;
-  max-width: 50%;
-}
 h4 {
   font-size: 1.8em;
 }
@@ -72,6 +69,10 @@ section {
 }
 
 .banner-text {
+  position: absolute;
+  color: #fff;
+  text-align: left;
+  max-width: 50%;
   bottom: 15%;
   left: 5%;
 }
@@ -137,7 +138,8 @@ main {
 }
 footer {
   width: 100%;
-  margin: 10px 0 0 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   font-size: 16px;
 }
 #heart {
