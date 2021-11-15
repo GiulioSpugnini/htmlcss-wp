@@ -91,7 +91,15 @@ main {
 .banner-img {
   height: 400px;
   width: 100%;
-  object-fit: cover;
+  background-color: gray;
+  border: 1px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.box-bg-gray {
+  height: 200px;
+  width: 100%;
+  background-color: gray;
   border: 1px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -111,9 +119,6 @@ main {
   position: absolute;
   top: 0;
 }
-/* .box-bg{
-  background-color: rgba(grey, grey, grey, 0.2);
-} */
 .sidebox {
   width: 20%;
   margin-bottom: 20px;
