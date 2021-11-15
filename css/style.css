@@ -75,22 +75,26 @@ section {
 h2{
   font-size: 2em;
 }
-#bg-blue {
-  /* background-color: blue; */
-}
 main {
   width: 100%;
 }
+.box-img{
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border: 1px;
+  border-radius: 8px;
+  background-color: grey;
+}
 .sidebox {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 20%;
-  height: 460px;
   margin-bottom: 20px;
+  text-align: left;
 }
 .middlebox {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: calc(60% - 20px);
-  height: 460px;
   margin-left: 10px;
   margin-right: 10px;
 }
