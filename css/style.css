@@ -13,11 +13,11 @@ img {
   display: table;
 }
 /* Utilities */
-p{
+p {
   color: gray;
   margin-top: 5px;
 }
-strong{
+strong {
   color: black;
 }
 .container {
@@ -75,25 +75,28 @@ section {
   bottom: 15%;
   left: 5%;
 }
-#main-header{
+#main-header {
   width: 100%;
   margin-bottom: 20px;
   text-align: left;
   color: gray;
 }
-h2{
+h2 {
   font-size: 2em;
   color: black;
 }
 main {
   width: 100%;
 }
-.box-img{
+.box-img {
   max-height: 200px;
   width: 100%;
   object-fit: cover;
   border: 1px;
   border-radius: 8px;
+}
+.box-img:hover {
+  opacity: 1;
 }
 /* .box-bg{
   background-color: rgba(grey, grey, grey, 0.2);
@@ -116,9 +119,8 @@ footer {
   width: 100%;
   margin: 10px 0 0 10px;
   font-size: 16px;
-  
 }
-#heart{
+#heart {
   color: red;
   margin-left: 5px;
 }
