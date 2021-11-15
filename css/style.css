@@ -13,10 +13,18 @@ img {
   display: table;
 }
 /* Utilities */
+p{
+  color: gray;
+  margin-top: 5px;
+}
+strong{
+  color: black;
+}
 .container {
   max-width: 1200px;
   text-align: center;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 #inizio-pagina {
   width: 100%;
@@ -63,7 +71,7 @@ section {
   height: 400px;
   margin-bottom: 30px;
 }
-.float {
+.banner-text {
   bottom: 15%;
   left: 5%;
 }
@@ -71,9 +79,11 @@ section {
   width: 100%;
   margin-bottom: 20px;
   text-align: left;
+  color: gray;
 }
 h2{
   font-size: 2em;
+  color: black;
 }
 main {
   width: 100%;
@@ -84,26 +94,31 @@ main {
   object-fit: cover;
   border: 1px;
   border-radius: 8px;
-  background-color: grey;
 }
+/* .box-bg{
+  background-color: rgba(grey, grey, grey, 0.2);
+} */
 .sidebox {
-  /* background-color: lightblue; */
   width: 20%;
   margin-bottom: 20px;
   text-align: left;
 }
 .middlebox {
-  /* background-color: lightblue; */
   width: calc(60% - 20px);
   margin-left: 10px;
   margin-right: 10px;
+  text-align: left;
 }
 .float-left {
   float: left;
 }
 footer {
-  background-color: purple;
   width: 100%;
-  height: 80px;
-  margin-top: 10px;
+  margin: 10px 0 0 10px;
+  font-size: 16px;
+  
+}
+#heart{
+  color: red;
+  margin-left: 5px;
 }
