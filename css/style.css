@@ -14,7 +14,7 @@ img {
 }
 /* COLORS */
 .gray {
-  color: gray;
+  color: #999;
 }
 .white {
   color: #fff;
@@ -40,7 +40,7 @@ img {
 }
 li {
   display: inline-block;
-  color: grey;
+  color: #999;
   margin: 20px 10px;
   cursor: pointer;
 }
@@ -80,7 +80,7 @@ section {
   width: 100%;
   margin-bottom: 20px;
   text-align: left;
-  color: gray;
+  color: #999;
 }
 h2 {
   font-size: 2em;
